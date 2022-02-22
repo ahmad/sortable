@@ -1,0 +1,42 @@
+
+body, html, * {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Helvetica Neue';
+	font-size: 22px;
+    box-sizing: border-box;
+}
+
+ol, ul {
+	padding: 0px;
+    margin: 0px;
+}
+
+li {
+	padding: 8px;
+	margin-bottom: 5px;
+}
+
+.grid {
+	margin: 10px;
+}
+
+#players, textarea {
+	width: 100%;
+}
+
+button {
+	padding: 10px 30px;
+}
+
+textarea {
+    box-sizing: border-box;
+	padding: 5px;
+}
+
+#sort {
+	flex: 7
+}
