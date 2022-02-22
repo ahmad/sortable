@@ -1,6 +1,10 @@
 
 const $sortable = $("#sortable")
-$sortable.sortable();
+$sortable.sortable({
+	handle: '.ui-icon'
+});
+
+$sortable.disableSelection();
 
 $("#build").on("click", ()=>{
 	const $players = $("#playersInput");

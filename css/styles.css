@@ -18,6 +18,7 @@ ol, ul {
 li {
 	padding: 8px;
 	margin-bottom: 5px;
+	margin-left: 40px;
 }
 
 .grid {
